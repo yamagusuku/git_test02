@@ -1,0 +1,5 @@
+AddType application/x-httpd-php .htm .html
+
+ErrorDocument 404 /404.html
+
+FileETag MTime Size
