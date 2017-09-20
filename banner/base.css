@@ -1,0 +1,58 @@
+
+BODY { 
+
+  font-family: "Times New Roman", Times, serif;
+
+  color: #ffffff;
+
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: right;
+  background-color: #fff;
+
+  scrollbar-3d-light-color: #dcdcdc;
+  scrollbar-arrow-color: #c0c0c0;
+  scrollbar-base-color: #ffffff;
+  scrollbar-dark-shadow-color: #ffffff;
+  scrollbar-face-color: #ffffff;
+  scrollbar-highlight-color: #fffff;
+  scrollbar-shadow-color: #a9a9a9;
+  scrollbar-track-color: gray;
+}
+
+A:link { color: #ffffff; text-decoration: none }
+A:visited { color: #ffffff; text-decoration: none }
+A:active { color: gray; text-decoration: none }
+A:hover { color: gray; text-decoration: none; font-weight: bold }
+
+.it { font-style: italic }
+.bi { text-decoration: blink }
+.ob { font-style: oblique }
+.ftsy { font-family: Critter }
+.itb  { font-style: italic; font-weight: bold; color: #ff99aa }
+.its  { font-style: italic; font-size:xx-small; font-weight: bold; }
+.b { font-weight: bold }
+
+.hed  { font-style: italic; font-weight: bold; font-size: xx-small; text-align: right }
+.end  { font-style: italic; font-weight: bold; font-size: xx-small; text-align: left }
+
+.2xs { font-size: xx-small }
+.xs { font-size: x-small }
+.s { font-size: small }
+.m { font-size: medium }
+.l { font-size: large }
+.xl { font-size: x-large }
+.2xl { font-size: xx-large }
+
+.fms {font-family:Å@'ÇlÇr ÇoÉSÉVÉbÉN';  font-weight: bold; }
+
+.t-c { text-align: center }
+.t-l { text-align: left }
+.t-r { text-align: right }
+
+.f-l { float: left }
+.f-r { float: right }
+
+.v-m { vertical-align: middle }
+.v-b { vertical-align: bottom }
+.v-t { vertical-align: top }
