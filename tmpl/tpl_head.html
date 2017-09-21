@@ -1,0 +1,26 @@
+<?
+$ua = $_SERVER['HTTP_USER_AGENT'];
+$browser = ((strpos($ua,'iPhone')!==false)||(strpos($ua,'iPod')!==false)||(strpos($ua,'Android')!==false));
+if ($browser == true){
+  $browser = 'sp';
+  $vp = '800';
+}else{
+  $browser = 'pc';
+  $vp = '1100';
+}
+
+$name = '「CUTIE BOMB」～きゅ～てぃボム～';
+
+$_SERVER["SERVER_NAME"] = "1919ikebukuro.com"
+?>
+  <meta charset="shift_jis">
+  <meta content="width=<?= $vp ?>" name="viewport">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <title>
+    <?= $title ?>｜
+      <?= $name ?>
+  </title>
+  <meta content="<?= $name ?> の<?= $title ?>です。東京、池袋北口徒歩30秒　風俗ホテルヘルス　巨乳専門店" name="description">
+  <link href="/image/favicon.ico" rel="shortcut icon">
+  <link href="../css/main.scss?compile" rel="stylesheet">
+  <link href="../image/favicon.ico" rel="shortcut icon">

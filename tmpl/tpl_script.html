@@ -1,0 +1,32 @@
+    <script type="text/javascript">
+      var GB_ROOT_DIR = "/js/greybox/";
+    </script>
+    <script type="text/javascript" src="/js/greybox/AJS.js"></script>
+    <script type="text/javascript" src="/js/greybox/AJS_fx.js"></script>
+    <script type="text/javascript" src="/js/greybox/gb_scripts.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.cycle.all.pack.js"></script>
+    <script type="text/javascript" src="/js/default.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.5/mediaelement-and-player.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.lazyload.min.js"></script>
+    <script>
+      $( function(){
+        // mediaelement.js
+        $('.video_box .video').mediaelementplayer({
+          features: ['playpause','volume'],
+          defaultVideoWidth: 212,
+          defaultVideoHeight: 119
+        });
+        $( 'img.lazy' ).lazyload();
+      });
+    </script>
+    <script type="text/javascript">
+      $(function() {
+          $("video").attr("autoplay","false");
+          $('#girls_shame iframe').on('load', function(){
+              $('#girls_shame iframe').contents().find('a').css('font-size','150%');
+          });
+      });
+    </script>
