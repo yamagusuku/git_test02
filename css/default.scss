@@ -1,0 +1,297 @@
+/* CSS Document */
+
+//aaaaatest
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #000000;
+  background-image: url(http://1919ikebukuro.com/image/bac.gif);
+  background-repeat: repeat-x;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 10px;
+  font-weight: normal;
+  position: absolute;
+  color: #FFFFFF;
+  left: 135px;
+  top: 6px;
+  margin: 0px;
+  padding: 0px;
+}
+
+form {
+  text-align: left;
+}
+
+a img {
+  border: 0px;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+a:active {
+  color: #FF0000;
+}
+
+#menu {
+  padding: 0px;
+  margin-bottom: 5px;
+  height: 490px;
+  overflow: hidden;
+}
+
+#menu ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu ul li {
+  height: 50px;
+  width: 190px;
+  margin: 0 0 5px;
+  padding: 0 5px 0 0;
+  overflow: hidden;
+}
+
+#menu ul li a {
+  display: block;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+#menu ul li a:hover {
+  background-position: 0 -50px;
+}
+
+#menu #top a {
+  background-image: url(http://1919ikebukuro.com/image/bt/top.jpg);
+}
+
+#menu #concept a {
+  background-image: url(http://1919ikebukuro.com/image/bt/concept.jpg);
+}
+
+#menu #system a {
+  background-image: url(http://1919ikebukuro.com/image/bt/system.jpg);
+}
+
+#menu #gals a {
+  background-image: url(http://1919ikebukuro.com/image/bt/gals.jpg);
+}
+
+#menu #schedule a {
+  background-image: url(http://1919ikebukuro.com/image/bt/schedule.jpg);
+}
+
+#menu #map a {
+  background-image: url(http://1919ikebukuro.com/image/bt/map.jpg);
+}
+
+#menu #movie_blog a {
+  background-image: url(http://1919ikebukuro.com/image/bt/movie_blog.gif);
+}
+
+#menu #movie a {
+  background-image: url(http://1919ikebukuro.com/image/bt/movie.jpg);
+}
+
+#menu #costume a {
+  background-image: url(http://1919ikebukuro.com/image/bt/cotume.jpg);
+}
+
+#menu #enquete a {
+  background-image: url(http://1919ikebukuro.com/image/bt/enquete.jpg);
+}
+
+#page_top {
+  height: 170px;
+  position: relative;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+#container2 {
+  width: 1130px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+#main {
+  width: 900px;
+}
+
+#main2 {
+  float: right;
+  width: 930px;
+}
+
+#left {
+  margin: 0 10px 0 0;
+  width: 190px;
+}
+
+.left_box a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.c_both {
+  clear: both;
+}
+
+#header {
+  height: 250px;
+  position: relative;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(http://1919ikebukuro.com/image/CB_header3_2.gif);
+  background-repeat: no-repeat;
+  display: block;
+  z-index: 0;
+}
+
+#top_movie {
+  height: 162px;
+  position: absolute;
+  width: 224px;
+  left: -54px;
+  top: 16px;
+  background-image: url(http://1919ikebukuro.com/image/top_movie2.gif);
+  padding-top: 67px;
+  padding-left: 13px;
+  padding-right: 13px;
+  z-index: 9999;
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  margin: 20px 0 20px;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mobile_iframe {
+  width: 226px;
+  height: 50px;
+  position: absolute;
+  left: 697px;
+  top: 85px;
+}
+
+#line_id {
+  font-size: 15px;
+  color: #FFF;
+  width: 100px;
+  position: absolute;
+  left: 959px;
+  top: 143px;
+}
+
+.banner_box {
+  width: 395px;
+  height: 65px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.shinya_banne_box {
+  margin-bottom: 5px;
+}
+
+.video-wrap {
+  position: relative;
+}
+
+.video-btn {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  /*コントローラー分下部に余白を*/
+  cursor: pointer;
+}
+
+
+/* ↓header動画↓ */
+
+.video_box {
+  position: relative;
+  cursor: pointer;
+}
+
+.video_box img {
+  display: none;
+}
+
+.stop img {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 87px;
+
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+/* 2017-01-07時点のchrome55で下記は機能しませんでした
+video::-internal-media-controls-download-button {
+  display:none;
+}
+*/
+
+video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+  width: calc(100% + 30px);
+  /* Adjust as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .video_box img {
+    display: block !important;
+    z-index: 2147483647;
+  }
+  *::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+}
