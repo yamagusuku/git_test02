@@ -27,15 +27,6 @@
   background-color: #242424;
 }
 
-#news2 {
-  width: 220px;
-  float: left;
-  height: 259px;
-  margin-top: 10px;
-  background-image: url(http://1919ikebukuro.com/image/news2.jpg);
-  padding: 41px 0 0 10px;
-}
-
 #middle_container {
   display: flex;
   flex-wrap: wrap;
@@ -62,16 +53,6 @@
   background-repeat: no-repeat;
   padding: 65px 0 0 10px;
   margin-right: 10px;
-}
-
-#pickup {
-  float: left;
-  margin-top: 5px;
-  background-repeat: no-repeat;
-  background-color: #444444;
-  overflow: hidden;
-  height: 550px;
-  width: 660px;
 }
 
 #today_sche {
@@ -151,62 +132,7 @@
   overflow: auto;
 }
 
-
-/* op_news */
-
-.op_news_box {
-  border-bottom-width: 1px;
-  border-bottom-style: groove;
-  border-bottom-color: #333333;
-  width: 188px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-}
-
-.op_news_border {
-  border: 1px solid #999999;
-  padding: 3px;
-  margin-right: auto;
-  float: left;
-}
-
-.op_news_title {
-  color: #FF0000;
-  font-weight: bold;
-}
-
-.op_news_com {
-  font-size: 12px;
-  clear: both;
-  display: block;
-}
-
-.op_news_style1 {
-  font-size: 10px;
-  color: #3366FF;
-  font-weight: normal;
-  letter-spacing: 0.1em;
-  display: block;
-  margin-bottom: 3px;
-}
-
-#news2_container {
-  overflow: auto;
-  height: 259px;
-  width: 220px;
-}
-
-
 /* shame_news */
-
-.shame_news_box {
-  border-bottom-width: 1px;
-  border-bottom-style: groove;
-  border-bottom-color: #333333;
-  width: 188px;
-  padding-bottom: 5px;
-  margin: 0 0 5px 5px;
-}
 
 .shame_news_border {
   border: 1px solid #999999;
@@ -242,29 +168,15 @@
   }
 }
 
-#shame_container {
-  height: 758px;
-  width: 220px;
-  overflow: auto;
-  overflow-x: hidden;
-}
-
-.shame_news_container {
-  overflow-x: hidden;
-  background-color: #000000;
-  margin-left: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  scrollbar-face-color: #000000;
-  scrollbar-highlight-color: 999999;
-  scrollbar-shadow-color: 999999;
-  scrollbar-3dlight-color: #000000;
-  scrollbar-arrow-color: 999999;
-  scrollbar-track-color: #000000;
-  scrollbar-darkshadow-color: #000000;
-}
-
-
 /* shame_news */
+
+#concept_top2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 900px;
+  margin-bottom: 5px;
+}
 
 #shame2 {
   width: 485px;
@@ -272,15 +184,6 @@
   background-image: url(http://1919ikebukuro.com/image/news3_4.jpg);
   padding: 41px 0 0 10px;
   margin-right: 10px;
-}
-
-.shame2_news_box {
-  margin: 0 0 5px 5px;
-  border-bottom-width: 1px;
-  border-bottom-style: groove;
-  border-bottom-color: #333333;
-  width: 455px;
-  padding-bottom: 5px;
 }
 
 #shame2_container {
@@ -306,13 +209,15 @@
   scrollbar-darkshadow-color: #000000;
 }
 
-#concept_top2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 900px;
-  margin-bottom: 5px;
+.shame2_news_box {
+  margin: 0 0 5px 5px;
+  border-bottom-width: 1px;
+  border-bottom-style: groove;
+  border-bottom-color: #333333;
+  width: 455px;
+  padding-bottom: 5px;
 }
+
 
 #tumblr_box {
   height: 405px;
@@ -322,36 +227,34 @@
   padding-top: 45px;
   width: 395px;
   background-image: url(http://1919ikebukuro.com/image/syame_bg.jpg);
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+  }
+  ul {
+    margin: 20px 0 20px 20px;
+  }
+  ul img {
+    vertical-align: bottom;
+    width: 100px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+  ul li {
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 7px #000;
+  }
 }
 
-#tumblr_box p {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  color: #000;
-}
 
-#tumblr_box ul img {
-  vertical-align: bottom;
-  width: 100px;
-  height: 100px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  overflow: hidden;
-}
-
-#tumblr_box ul {
-  margin: 20px 0 20px 20px;
-}
-
-#tumblr_box ul li {
-  display: inline-block;
-  margin: 0 15px 15px 0;
-  padding: 3px;
-  background: #fff;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 7px #000;
-}
 
 #girls_shame {
   height: 500px;
@@ -367,10 +270,6 @@
 #middle_right {
   width: 230px;
   padding-top: 5px;
-}
-
-#container #main #middle_right #girls_shame iframe body #home #contents {
-  color: #FFF !important;
 }
 
 #girls_shame iframe body {
@@ -430,28 +329,22 @@
   margin-right: auto;
   margin-left: auto;
   padding: 85px 0 66px;
+  img {
+    width: 208px;
+    height: 156px;
+  }
 }
 
-.top_movie_news object {
-  width: 208px;
-  height: 167px;
-}
-
-.top_movie_news video {
-  width: 208px;
-  height: 167px;
-}
-
-.top_movie_news img {
-  width: 208px;
-  height: 156px;
-}
 
 .top_movie_news_left {
   display: block;
   padding: 2px;
   height: 37px;
   width: 46px;
+  img {
+    height: 37px;
+    width: 46px;
+  }
 }
 
 .top_movie_news_right {
@@ -461,15 +354,9 @@
   width: 150px;
   padding: 2px 0 2px 2px;
   overflow: hidden;
-}
-
-.top_movie_news_left img {
-  height: 37px;
-  width: 46px;
-}
-
-.top_movie_news_right a:hover {
-  color: #ff3d7f !important;
+  a:hover {
+    color: #ff3d7f !important;
+  }
 }
 
 .top_movie_news_com {
