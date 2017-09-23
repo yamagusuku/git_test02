@@ -186,3 +186,58 @@ a:active {
   top: 143px;
 }
 
+.banner_box {
+  width: 395px;
+  height: 65px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+/* ↓header動画↓ */
+
+.video_box {
+  position: relative;
+  cursor: pointer;
+}
+
+.video_box img {
+  display: none;
+}
+
+.stop img {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 87px;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+/* 2017-01-07時点のchrome55で下記は機能しませんでした
+video::-internal-media-controls-download-button {
+  display:none;
+}
+*/
+
+video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+  width: calc(100% + 30px);
+  /* Adjust as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .video_box img {
+    display: block !important;
+    z-index: 2147483647;
+  }
+  *::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+}

@@ -1,21 +1,24 @@
 /* CSS Document */
-/* movie */
 #movie_wrapper {
-  clear: both;
+  background: url(http://1919ikebukuro.com/image/movie/title.jpg) left top no-repeat;
   color: #202020;
-  float: left;
   width: 660px;
-  background-color: #444444; }
+  background-color: #444444;
+  padding: 29px 0 0;
+  margin-top: 5px; }
+
+#movie_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
 
 .movie_box {
-  float: left;
   display: block;
   overflow: hidden;
   width: 215px;
   height: 207px;
   background-repeat: no-repeat;
   background-image: url(http://1919ikebukuro.com/image/movie/bg_box2.gif);
-  margin: 0 3px 8px 0;
   position: relative;
   padding-top: 5px; }
 
@@ -33,58 +36,24 @@
   padding: 18px 0 0 1px;
   height: 119px;
   width: 212px; }
+  .movie video {
+    height: 119px !important;
+    width: 212px !important; }
 
 .movie_prof {
   font-size: 12px;
   padding: 18px 0 0 10px;
   color: #FFF;
   line-height: 13px; }
-
-.movie_prof a:link {
-  color: #FFFFFF;
-  text-decoration: none; }
-
-.movie_prof a:visited {
-  color: #FFFFFF;
-  text-decoration: none; }
-
-.movie_prof a:hover {
-  color: #FFFF00;
-  text-decoration: none; }
-
-.movie_prof a:active {
-  color: #FFFF00;
-  text-decoration: none; }
-
-#movie_wrapper object {
-  height: 154px !important;
-  width: 205px !important; }
-
-#movie_wrapper video {
-  height: 119px !important;
-  width: 212px !important; }
-
-#movie_wrapper2 {
-  clear: both;
-  color: #202020;
-  float: left;
-  width: 900px;
-  background-color: #444444; }
-
-#movie_wrapper2 object {
-  height: 154px !important;
-  width: 205px !important; }
-
-#movie_wrapper2 video {
-  height: 154px !important;
-  width: 205px !important; }
-
-#movie_wrapper2 #movie_container .movie_box {
-  position: relative; }
-
-#movie_wrapper2 #movie_container .movie_box .news04_cap {
-  position: absolute;
-  height: 45px;
-  width: 45px;
-  right: 0px;
-  bottom: 0px; }
+  .movie_prof a:link {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .movie_prof a:visited {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .movie_prof a:hover {
+    color: #FFFF00;
+    text-decoration: none; }
+  .movie_prof a:active {
+    color: #FFFF00;
+    text-decoration: none; }

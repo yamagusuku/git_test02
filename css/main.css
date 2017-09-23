@@ -1,29 +1,30 @@
 /*
-Error: Invalid Windows-31J character "\xE3"
-        on line 246 of D:/web/test02/css/default.scss
+Error: Invalid Windows-31J character "\xE6"
+        on line 199 of D:/web/test02/css/default.scss
         from line 4 of D:\web\test02\css\main.scss
 
-241:   position: absolute;
-242:   top: 0;
-243:   left: 0;
-244:   right: 0;
-245:   bottom: 40px;
-246:   /*コントローラー分下部に余白を*\/
-247:   cursor: pointer;
-248: }
-249: 
-250: 
-251: /* ↓header動画↓ *\/
+194: }
+195: 
+196: 
+197: 
+198: 
+199: /* 2017-01-07時点のchrome55で下記は機能しませんでした
+200: video::-internal-media-controls-download-button {
+201:   display:none;
+202: }
+203: *\/
+204: 
 
 Backtrace:
-D:/web/test02/css/default.scss:246
+D:/web/test02/css/default.scss:199
 D:\web\test02\css\main.scss:4
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1297:in `rescue in block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1294:in `block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each_with_index'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `find_encoding_error'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:902:in `check_sass_encoding'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:908:in `rescue in check_sass_encoding'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:904:in `check_sass_encoding'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:433:in `check_encoding!'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:389:in `_to_tree'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:309:in `to_tree'
@@ -63,4 +64,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid Windows-31J character \"\xE3\"\A         on line 246 of D:/web/test02/css/default.scss\A         from line 4 of D:\web\test02\css\main.scss\A \A 241:   position: absolute;\A 242:   top: 0;\A 243:   left: 0;\A 244:   right: 0;\A 245:   bottom: 40px;\A 246:   /*コントローラー分下部に余白を*/\A 247:   cursor: pointer;\A 248: }\A 249: \A 250: \A 251: /* ↓header動画↓ */"; }
+  content: "Error: Invalid Windows-31J character \"\xE6\"\A         on line 199 of D:/web/test02/css/default.scss\A         from line 4 of D:\web\test02\css\main.scss\A \A 194: }\A 195: \A 196: \A 197: \A 198: \A 199: /* 2017-01-07時点のchrome55で下記は機能しませんでした\A 200: video::-internal-media-controls-download-button {\A 201:   display:none;\A 202: }\A 203: */\A 204: "; }
