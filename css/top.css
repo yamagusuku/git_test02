@@ -1,21 +1,21 @@
 /*
 Error: Invalid Windows-31J character "\xE7"
-        on line 111 of D:\web\test02\css\top.scss
+        on line 106 of D:\web\test02\css\top.scss
 
-106: #vip_card span {
-107:   display: none;
-108: }
-109: 
-110: 
-111: /* movie top用 *\/
-112: 
-113: #movie_wrapper {
-114:   margin-top: 10px;
-115:   width: 660px;
-116: }
+101: #vip_card span {
+102:   display: none;
+103: }
+104: 
+105: 
+106: /* movie top用 *\/
+107: 
+108: #movie_wrapper {
+109:   margin-top: 10px;
+110:   width: 660px;
+111: }
 
 Backtrace:
-D:\web\test02\css\top.scss:111
+D:\web\test02\css\top.scss:106
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1297:in `rescue in block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1294:in `block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each'
@@ -36,4 +36,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid Windows-31J character \"\xE7\"\A         on line 111 of D:\web\test02\css\top.scss\A \A 106: #vip_card span {\A 107:   display: none;\A 108: }\A 109: \A 110: \A 111: /* movie top用 */\A 112: \A 113: #movie_wrapper {\A 114:   margin-top: 10px;\A 115:   width: 660px;\A 116: }"; }
+  content: "Error: Invalid Windows-31J character \"\xE7\"\A         on line 106 of D:\web\test02\css\top.scss\A \A 101: #vip_card span {\A 102:   display: none;\A 103: }\A 104: \A 105: \A 106: /* movie top用 */\A 107: \A 108: #movie_wrapper {\A 109:   margin-top: 10px;\A 110:   width: 660px;\A 111: }"; }
