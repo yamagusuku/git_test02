@@ -7,8 +7,11 @@
   background-repeat: no-repeat;
   padding-left: 10px;
   height: 390px;
+  video {
+    height: 119px !important;
+    width: 212px !important;
+  }
 }
-
 .top_movie_box {
   display: block;
   overflow: hidden;
@@ -19,8 +22,15 @@
   background-repeat: no-repeat;
   background-image: url(http://1919ikebukuro.com/image/movie_box_bg.png);
   padding-top: 8px;
+  .news04_cap {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    right: 10px;
+    bottom: 17px;
+    z-index: 10;
+  }
 }
-
 .top_movie_title {
   line-height: 15px;
   height: 15px;
@@ -30,7 +40,6 @@
   margin-left: auto;
   color: #000;
 }
-
 .top_movie {
   display: block;
   padding: 15px 4px 0;
@@ -38,64 +47,33 @@
   width: 212px;
   z-index: -10;
 }
-
 .top_movie_prof {
   font-size: 12px;
   padding: 2px 0 0 13px;
   color: #FFF;
   line-height: 13px;
+  a {
+    position: absolute;
+    left: 20px;
+    top: 148px;
+  }
+  a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+  }
+  a:active {
+    color: #FFFF00;
+    text-decoration: none;
+  }
 }
-
-.top_movie_prof a:link {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.top_movie_prof a:visited {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.top_movie_prof a:hover {
-  color: #FFFF00;
-  text-decoration: none;
-}
-
-.top_movie_prof a:active {
-  color: #FFFF00;
-  text-decoration: none;
-}
-
-#top_movie_wrapper object {
-  height: 154px !important;
-  width: 192px !important;
-}
-
-#top_movie_wrapper object embed {
-  height: 154px !important;
-  width: 192px !important;
-}
-
-#top_movie_wrapper video {
-  height: 119px !important;
-  width: 212px !important;
-}
-
-#top_movie_wrapper .top_movie_box .news04_cap {
-  position: absolute;
-  height: 36px;
-  width: 36px;
-  right: 10px;
-  bottom: 17px;
-  z-index: 10;
-}
-
-#top_movie_container .top_movie_box .top_movie_prof a {
-  position: absolute;
-  left: 20px;
-  top: 148px;
-}
-
 #movie_container .movie_box .movie a img {
   height: 108px;
   width: 192px;
