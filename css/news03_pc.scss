@@ -1,0 +1,46 @@
+/* CSS Document */
+
+.history_box {
+	border: 1px dotted #181818;
+	height: 44px;
+	background-color: #333333;
+	padding: 5px;
+	width: 200px;
+}
+.history_photo {
+	float: left;
+	height: 45px;
+	width: 30px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+.history_time {
+	float: left;
+	height: 13px;
+	width: 162px;
+	padding-left: 3px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #CCCCCC;
+	background-color: #666666;
+	padding-top: 2px;
+}
+.history_name {
+	float: left;
+	height: 29px;
+	width: 162px;
+	line-height: 14px;
+	padding-left: 3px;
+}
+.c_both {
+	clear: both;
+}
+.history_name a:link, .history_name a:visited, .history_name a:link p, .history_name a:visited p {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.history_name a:hover, .history_name a:active, .history_name a:hover p, .history_name a:active p {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FF4B16;
+}
