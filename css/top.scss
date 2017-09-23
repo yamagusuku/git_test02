@@ -19,7 +19,6 @@
 
 #history {
   width: 230px;
-  float: left;
   margin-top: 5px;
   background-image: url(http://1919ikebukuro.com/image/history.jpg);
   padding: 50px 0 5px;
@@ -37,24 +36,21 @@
   padding: 41px 0 0 10px;
 }
 
+#middle_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
 #middle {
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
   width: 660px;
   margin-right: 10px;
 }
 
-#shame {
-  width: 220px;
-  float: left;
-  height: 770px;
-  margin-top: 5px;
-  background-image: url(http://1919ikebukuro.com/image/news3_2.jpg);
-  padding: 41px 0 0 10px;
-}
-
 #game {
   width: 230px;
-  float: left;
   margin-bottom: 5px;
 }
 
@@ -65,7 +61,6 @@
   background-image: url(http://1919ikebukuro.com/image/schedule.jpg);
   background-repeat: no-repeat;
   padding: 65px 0 0 10px;
-  float: left;
   margin-right: 10px;
 }
 
@@ -215,9 +210,8 @@
 
 .shame_news_border {
   border: 1px solid #999999;
-  padding: 3px;
-  float: left;
-  margin-right: 7px;
+  padding: 2px;
+  margin: 10px 10px 10px 5px;
 }
 
 .shame_news_title {
@@ -230,6 +224,9 @@
 
 .shame_news_com {
   font-size: 12px;
+  a img {
+    margin-right: 7px;
+  }
 }
 
 .shame_news_style1 {
@@ -240,6 +237,9 @@
   display: block;
   margin-bottom: 3px;
   height: 15px;
+  .hiniti {
+  font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+  }
 }
 
 #shame_container {
@@ -281,39 +281,6 @@
   border-bottom-color: #333333;
   width: 455px;
   padding-bottom: 5px;
-}
-
-.shame_news_border {
-  border: 1px solid #999999;
-  padding: 3px;
-  float: left;
-  margin-right: 7px;
-}
-
-.shame_news_title {
-  color: #FF0000;
-  font-weight: bold;
-  border-bottom-width: 1px;
-  border-bottom-color: #999999;
-  display: block;
-}
-
-.shame_news_com {
-  font-size: 12px;
-}
-
-.shame_news_com a img {
-  margin-right: 7px;
-}
-
-.shame_news_style1 {
-  font-size: 14px;
-  color: #FFFF00;
-  font-weight: normal;
-  letter-spacing: 0.1em;
-  display: block;
-  margin-bottom: 3px;
-  height: 15px;
 }
 
 #shame2_container {
@@ -390,7 +357,6 @@
   height: 500px;
   width: 230px;
   overflow: auto;
-  float: left;
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: #191a1c;
@@ -399,7 +365,6 @@
 }
 
 #middle_right {
-  float: left;
   width: 230px;
   padding-top: 5px;
 }
@@ -414,11 +379,10 @@
   background-color: #191a1c;
 }
 
-.shame_news_style1 .hiniti {
-  font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
-}
-
 .top_movie_news_container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-image: url(http://1919ikebukuro.com/image/top_movie_news_bg.gif);
   background-repeat: no-repeat;
   height: 645px;
@@ -427,7 +391,9 @@
 }
 
 .top_movie_news_box {
-  display: block;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 43px;
   width: 210px;
   padding: 5px 0 5px;
@@ -484,7 +450,6 @@
 .top_movie_news_left {
   display: block;
   padding: 2px;
-  float: left;
   height: 37px;
   width: 46px;
 }
@@ -492,7 +457,6 @@
 .top_movie_news_right {
   color: #ff3d7f !important;
   display: block;
-  float: left;
   height: 37px;
   width: 150px;
   padding: 2px 0 2px 2px;
