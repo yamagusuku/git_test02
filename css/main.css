@@ -1,30 +1,29 @@
 /*
-Error: Invalid Windows-31J character "\xE6"
-        on line 199 of D:/web/test02/css/default.scss
-        from line 4 of D:\web\test02\css\main.scss
+Error: Invalid Windows-31J character "\xEF"
+        on line 114 of D:/web/test02/css/top.scss
+        from line 5 of D:\web\test02\css\main.scss
 
-194: }
-195: 
-196: 
-197: 
-198: 
-199: /* 2017-01-07時点のchrome55で下記は機能しませんでした
-200: video::-internal-media-controls-download-button {
-201:   display:none;
-202: }
-203: *\/
-204: 
+109:   letter-spacing: 0.1em;
+110:   display: block;
+111:   margin-bottom: 3px;
+112:   height: 15px;
+113:   .hiniti {
+114:   font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+115:   }
+116: }
+117: #concept_top2 {
+118:   display: flex;
+119:   flex-wrap: wrap;
 
 Backtrace:
-D:/web/test02/css/default.scss:199
-D:\web\test02\css\main.scss:4
+D:/web/test02/css/top.scss:114
+D:\web\test02\css\main.scss:5
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1297:in `rescue in block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1294:in `block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each_with_index'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `find_encoding_error'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:908:in `rescue in check_sass_encoding'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:904:in `check_sass_encoding'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:902:in `check_sass_encoding'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:433:in `check_encoding!'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:389:in `_to_tree'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:309:in `to_tree'
@@ -64,4 +63,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid Windows-31J character \"\xE6\"\A         on line 199 of D:/web/test02/css/default.scss\A         from line 4 of D:\web\test02\css\main.scss\A \A 194: }\A 195: \A 196: \A 197: \A 198: \A 199: /* 2017-01-07時点のchrome55で下記は機能しませんでした\A 200: video::-internal-media-controls-download-button {\A 201:   display:none;\A 202: }\A 203: */\A 204: "; }
+  content: "Error: Invalid Windows-31J character \"\xEF\"\A         on line 114 of D:/web/test02/css/top.scss\A         from line 5 of D:\web\test02\css\main.scss\A \A 109:   letter-spacing: 0.1em;\A 110:   display: block;\A 111:   margin-bottom: 3px;\A 112:   height: 15px;\A 113:   .hiniti {\A 114:   font-family: \"ＭＳ ゴシック\", \"MS Gothic\", \"Osaka－等幅\", Osaka-mono, monospace;\A 115:   }\A 116: }\A 117: #concept_top2 {\A 118:   display: flex;\A 119:   flex-wrap: wrap;"; }
