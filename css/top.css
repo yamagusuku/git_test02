@@ -1,21 +1,21 @@
 /*
 Error: Invalid Windows-31J character "\xEF"
-        on line 109 of D:\web\test02\css\top.scss
+        on line 523 of D:\web\test02\css\top.scss
 
-104:   letter-spacing: 0.1em;
-105:   display: block;
-106:   margin-bottom: 3px;
-107:   height: 15px;
-108:   .hiniti {
-109:   font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
-110:   }
-111: }
-112: #concept_top2 {
-113:   display: flex;
-114:   flex-wrap: wrap;
+518:   letter-spacing: 0.1em;
+519:   display: block;
+520:   margin-bottom: 3px;
+521:   height: 15px;
+522:   .hiniti {
+523:   font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+524:   }
+525: }
+526: #concept_top2 {
+527:   display: flex;
+528:   flex-wrap: wrap;
 
 Backtrace:
-D:\web\test02\css\top.scss:109
+D:\web\test02\css\top.scss:523
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1297:in `rescue in block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1294:in `block in find_encoding_error'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/util.rb:1293:in `each'
@@ -36,4 +36,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid Windows-31J character \"\xEF\"\A         on line 109 of D:\web\test02\css\top.scss\A \A 104:   letter-spacing: 0.1em;\A 105:   display: block;\A 106:   margin-bottom: 3px;\A 107:   height: 15px;\A 108:   .hiniti {\A 109:   font-family: \"ＭＳ ゴシック\", \"MS Gothic\", \"Osaka－等幅\", Osaka-mono, monospace;\A 110:   }\A 111: }\A 112: #concept_top2 {\A 113:   display: flex;\A 114:   flex-wrap: wrap;"; }
+  content: "Error: Invalid Windows-31J character \"\xEF\"\A         on line 523 of D:\web\test02\css\top.scss\A \A 518:   letter-spacing: 0.1em;\A 519:   display: block;\A 520:   margin-bottom: 3px;\A 521:   height: 15px;\A 522:   .hiniti {\A 523:   font-family: \"ＭＳ ゴシック\", \"MS Gothic\", \"Osaka－等幅\", Osaka-mono, monospace;\A 524:   }\A 525: }\A 526: #concept_top2 {\A 527:   display: flex;\A 528:   flex-wrap: wrap;"; }

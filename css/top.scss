@@ -3,26 +3,105 @@
   background-repeat: no-repeat;
   margin-bottom: 5px;
 }
+#top_movie_wrapper {
+  background: url(http://1919ikebukuro.com/image/top_movie_bg2.jpg) no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 390px;
+  width: 890px;
+  padding: 0 5px 0;
+  video {
+    height: 119px !important;
+    width: 212px !important;
+  }
+}
+.top_movie_box {
+  background: url(http://1919ikebukuro.com/image/movie_box_bg.png) no-repeat;
+  display: block;
+  position: relative;
+  width: 220px;
+  height: 176px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  .news04_cap {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    right: 10px;
+    bottom: 17px;
+    z-index: 10;
+  }
+}
+.top_movie_title {
+  line-height: 15px;
+  height: 15px;
+  width: 205px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000;
+}
+.top_movie {
+  display: block;
+  height: 119px;
+  width: 212px;
+  padding: 15px 4px 0;
+  z-index: -10;
+}
+.top_movie_prof {
+  font-size: 12px;
+  line-height: 13px;
+  color: #FFF;
+  padding: 2px 0 0 13px;
+  a {
+    position: absolute;
+    left: 20px;
+    top: 148px;
+  }
+  a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+  }
+  a:active {
+    color: #FFFF00;
+    text-decoration: none;
+  }
+}
+
 #news {
-  background: url(http://1919ikebukuro.com/image/news.jpg) no-repeat;
   width: 885px;
   height: 1131px;
   margin-top: 10px;
+  background-image: url(http://1919ikebukuro.com/image/news.jpg);
+  background-repeat: no-repeat;
   padding: 52px 0 0 15px;
   overflow: hidden;
 }
 #history {
-  background: url(http://1919ikebukuro.com/image/history.jpg) #242424 no-repeat;
   width: 230px;
   margin-top: 5px;
+  background-image: url(http://1919ikebukuro.com/image/history.jpg);
   padding: 50px 0 5px;
   height: 463px;
+  background-repeat: no-repeat;
+  background-color: #242424;
 }
 #history_top {
-  background-color: #242424;
   overflow: auto;
   height: 465px;
   width: 230px;
+  background-color: #242424;
 }
 #middle_container {
   display: flex;
@@ -35,22 +114,357 @@
   width: 660px;
   margin-right: 10px;
 }
+
+#pickup {
+  background: url(http://1919ikebukuro.com/image/movie/title.jpg) left top no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-color: #444444;
+  overflow: hidden;
+  margin-top: 5px;
+  padding: 29px 0 0;
+  height: 550px;
+  width: 660px;
+}
+.box {
+  width: 220px;
+}
+.border {
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prof {
+  padding-left: 10px;
+}
+.date {
+  font-size: 10px;
+  color: #FF8C00;
+}
+.title {
+  color: #FFFF00;
+  font-weight: bold;
+  height: 15px;
+  width: 220px;
+  text-align: center;
+}
+.com {
+  font-size: 12px;
+  width: 210px;
+  margin-left: auto;
+  margin-top: 5px;
+  height: 145px;
+  overflow: auto;
+  margin-right: auto;
+}
+.news04_name {
+  height: 30px;
+  width: 200px;
+  margin-left: 5px;
+  background-color: #333;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  position: relative;
+  .news04_cap {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+  }
+  .name_box {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+#movie_wrapper {
+  background: url(http://1919ikebukuro.com/image/movie/title.jpg) #444444 left top no-repeat;
+  color: #202020;
+  width: 660px;
+  padding: 29px 0 0;
+  margin-top: 5px;
+}
+#movie_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.movie_box {
+  background: url(http://1919ikebukuro.com/image/movie/bg_box2.gif) no-repeat;
+  display: block;
+  overflow: hidden;
+  width: 215px;
+  height: 207px;
+  position: relative;
+  padding-top: 5px;
+}
+.movie_title {
+  line-height: 20px;
+  text-align: center;
+  height: 20px;
+  width: 205px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+.movie {
+  display: block;
+  padding: 18px 0 0 1px;
+  height: 119px;
+  width: 212px;
+  video {
+    height: 119px !important;
+    width: 212px !important;
+  }
+}
+.movie_prof {
+  font-size: 12px;
+  line-height: 13px;
+  padding: 18px 0 0 10px;
+  color: #FFF;
+  a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+  }
+  a:active {
+    color: #FFFF00;
+    text-decoration: none;
+  }
+}
+
 #game {
   width: 230px;
   margin-bottom: 5px;
 }
+
 #sche {
-  background: url(http://1919ikebukuro.com/image/schedule.jpg) no-repeat;
   width: 650px;
   height: 835px;
-  margin: 10px 10px 0 0;
+  margin-top: 10px;
+  background-image: url(http://1919ikebukuro.com/image/schedule.jpg);
+  background-repeat: no-repeat;
   padding: 65px 0 0 10px;
+  margin-right: 10px;
 }
 #today_sche {
   overflow: auto;
   height: 825px;
   width: 630px;
   padding-left: 10px;
+}
+.girlslist_ico {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px;
+}
+.girlslist_box {
+  background-image: url(http://1919ikebukuro.com/image/gals_sche_bac2.gif);
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 140px;
+  float: left;
+  height: 330px;
+  margin: 0 10px 10px 0;
+}
+.girlslist_box2 {
+  text-align: center;
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 180px;
+  margin-top: 5px;
+}
+.girlslist_photo {
+  height: 180px;
+  width: 120px;
+  margin: 0px;
+  padding: 0px;
+}
+.girlslist_icon {
+  text-align: center;
+  margin: 3px 0 0;
+}
+.new {
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 10px;
+}
+.icon {
+  position: absolute;
+  left: 132px;
+  top: 185px;
+  right: 36px;
+  width: 30px;
+  height: 20px;
+}
+.girlslist_name {
+  font-size: 12px;
+  text-align: left;
+  color: #FFFFFF;
+  font-family: Verdana;
+  line-height: 12px;
+  padding-top: 7px;
+  display: block;
+  width: 95px;
+  float: left;
+  height: 38px;
+}
+.girlslist_comme {
+  font-size: 10px;
+  text-align: left;
+  color: #CCCCCC;
+  font-family: Verdana;
+  display: block;
+  height: 59px;
+  overflow: auto;
+  width: 110px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iframe {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 160px;
+  position: relative;
+}
+.link {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0px;
+}
+#selest_day {
+  font-size: 16px;
+  margin-top: 5px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #666666;
+  color: #FF00FF;
+  height: 20px;
+  margin-bottom: 10px;
+}
+#selest_day a {
+  text-decoration: underline;
+  color: #999999;
+}
+#selest_day a:visited {
+  text-decoration: underline;
+  color: #999999;
+}
+#selest_day a:hover {
+  background-color: #FF00FF;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+#selest_day a:active {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.time {
+  padding: 0px;
+  width: 120px;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  height: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #FFFF00;
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana;
+}
+.photo_left {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 120px;
+  height: 180px;
+}
+.photo_right {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 40px;
+  height: 60px;
+}
+.tomorrow {
+  padding: 0px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #333333;
+  line-height: 22px;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+.today {
+  padding: 0px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  margin: 0px;
+}
+.cup {
+  float: left;
+  height: 45px;
+  width: 45px;
+  overflow: hidden;
+}
+.photo {
+  height: 180px;
+  width: 120px;
+}
+.photo img {
+  height: 180px;
+  width: 120px;
+}
+.photo a {
+  border: 0px;
+  width: 120px;
+  display: block;
+  height: 180px;
+  background-repeat: no-repeat;
 }
 
 .cbn_border {
@@ -117,9 +531,9 @@
   margin-bottom: 5px;
 }
 #shame2 {
-  background: url(http://1919ikebukuro.com/image/news3_4.jpg);
   width: 485px;
   height: 484px;
+  background-image: url(http://1919ikebukuro.com/image/news3_4.jpg);
   padding: 41px 0 0 10px;
   margin-right: 10px;
 }
@@ -159,10 +573,13 @@
   margin-bottom: 10px;
 }
 #tumblr_box {
-  background: url(http://1919ikebukuro.com/image/syame_bg.jpg) top #191a1c no-repeat;
   height: 405px;
+  background-color: #191a1c;
+  background-repeat: no-repeat;
+  background-position: top;
   padding-top: 45px;
   width: 395px;
+  background-image: url(http://1919ikebukuro.com/image/syame_bg.jpg);
   p {
     font-size: 24px;
     font-weight: bold;
@@ -191,32 +608,35 @@
 }
 
 #girls_shame {
-  background: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg) #191a1c repeat;
   height: 500px;
   width: 230px;
   overflow: auto;
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: #191a1c;
+  background-image: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg);
+  background-repeat: repeat;
 }
 #middle_right {
   width: 230px;
   padding-top: 5px;
 }
 #girls_shame iframe body {
-  background: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg) #191a1c no-repeat !important;
+  background-image: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg) !important;
+  background-repeat: no-repeat;
+  background-color: #191a1c;
 }
 .top_movie_news_container {
-  background: url(http://1919ikebukuro.com/image/top_movie_news_bg.gif) no-repeat;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-image: url(http://1919ikebukuro.com/image/top_movie_news_bg.gif);
+  background-repeat: no-repeat;
   height: 645px;
   width: 230px;
   position: relative;
 }
 .top_movie_news_box {
-  font-size: 14px;
-  line-height: 18px;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -226,6 +646,8 @@
   border-bottom-width: 1px;
   border-bottom-style: dashed;
   border-bottom-color: #666666;
+  font-size: 14px;
+  line-height: 18px;
   margin-right: auto;
   margin-left: auto;
 }
