@@ -1,15 +1,8 @@
-/* CSS Document */
-
-* {
+body {
+  background: url(http://1919ikebukuro.com/image/bac.gif) #000000 repeat-x;
+  color: #FFFFFF;
   margin: 0px;
   padding: 0px;
-}
-
-body {
-  background-color: #000000;
-  background-image: url(http://1919ikebukuro.com/image/bac.gif);
-  background-repeat: repeat-x;
-  color: #FFFFFF;
   font-size: 13px;
 }
 h1 {
@@ -25,80 +18,82 @@ h1 {
 form {
   text-align: left;
 }
+a {
+  &:link,
+  &:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  &:hover,
+  &:active {
+    color: #FF0000;
+    text-decoration: none;
+  }
+}
 a img {
   border: 0px;
 }
-a:link {
-  color: #FFFFFF;
-}
-a:visited {
-  color: #FFFFFF;
-}
-a:hover {
-  color: #FF0000;
-}
-a:active {
-  color: #FF0000;
-}
+
 #menu {
   padding: 0px;
   margin-bottom: 5px;
   height: 490px;
   overflow: hidden;
-}
-#menu ul {
-  padding: 0px;
-  margin: 0px;
-}
-#menu ul li {
-  height: 50px;
-  width: 190px;
-  margin: 0 0 5px;
-  padding: 0 5px 0 0;
-  overflow: hidden;
-}
-#menu ul li a {
-  display: block;
-  height: 50px;
-  background-repeat: no-repeat;
-}
-#menu ul li a:hover {
-  background-position: 0 -50px;
-}
-#menu #top a {
-  background-image: url(http://1919ikebukuro.com/image/bt/top.jpg);
-}
-#menu #concept a {
-  background-image: url(http://1919ikebukuro.com/image/bt/concept.jpg);
-}
-#menu #system a {
-  background-image: url(http://1919ikebukuro.com/image/bt/system.jpg);
-}
-#menu #gals a {
-  background-image: url(http://1919ikebukuro.com/image/bt/gals.jpg);
-}
-#menu #schedule a {
-  background-image: url(http://1919ikebukuro.com/image/bt/schedule.jpg);
-}
-#menu #map a {
-  background-image: url(http://1919ikebukuro.com/image/bt/map.jpg);
-}
-#menu #movie_blog a {
-  background-image: url(http://1919ikebukuro.com/image/bt/movie_blog.gif);
-}
-#menu #movie a {
-  background-image: url(http://1919ikebukuro.com/image/bt/movie.jpg);
-}
-#menu #costume a {
-  background-image: url(http://1919ikebukuro.com/image/bt/cotume.jpg);
-}
-#menu #enquete a {
-  background-image: url(http://1919ikebukuro.com/image/bt/enquete.jpg);
+  ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  ul li {
+    height: 50px;
+    width: 190px;
+    margin: 0 0 5px;
+    padding: 0 5px 0 0;
+    overflow: hidden;
+  }
+  ul li a {
+    display: block;
+    height: 50px;
+    background-repeat: no-repeat;
+  }
+  ul li a:hover {
+    background-position: 0 -50px;
+  }
+  #top a {
+    background-image: url(http://1919ikebukuro.com/image/bt/top.jpg);
+  }
+  #concept a {
+    background-image: url(http://1919ikebukuro.com/image/bt/concept.jpg);
+  }
+  #system a {
+    background-image: url(http://1919ikebukuro.com/image/bt/system.jpg);
+  }
+  #gals a {
+    background-image: url(http://1919ikebukuro.com/image/bt/gals.jpg);
+  }
+  #schedule a {
+    background-image: url(http://1919ikebukuro.com/image/bt/schedule.jpg);
+  }
+  #map a {
+    background-image: url(http://1919ikebukuro.com/image/bt/map.jpg);
+  }
+  #movie_blog a {
+    background-image: url(http://1919ikebukuro.com/image/bt/movie_blog.gif);
+  }
+  #movie a {
+    background-image: url(http://1919ikebukuro.com/image/bt/movie.jpg);
+  }
+  #costume a {
+    background-image: url(http://1919ikebukuro.com/image/bt/cotume.jpg);
+  }
+  #enquete a {
+    background-image: url(http://1919ikebukuro.com/image/bt/enquete.jpg);
+  }
 }
 
+
 #page_top {
-  height: 170px;
   position: relative;
+  height: 170px;
   width: 1100px;
   margin-right: auto;
   margin-left: auto;
@@ -111,15 +106,13 @@ a:active {
   width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 1px;
-  padding-left: 1px;
+  padding: 0 1px 0;
 }
 #container2 {
   width: 1130px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 1px;
-  padding-left: 1px;
+  padding: 0 1px 0;
 }
 #main {
   width: 900px;
@@ -140,30 +133,26 @@ a:active {
   clear: both;
 }
 #header {
-  height: 250px;
+  background: url(http://1919ikebukuro.com/image/CB_header3_2.gif) no-repeat;
+  display: block;
   position: relative;
+  height: 250px;
   width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(http://1919ikebukuro.com/image/CB_header3_2.gif);
-  background-repeat: no-repeat;
-  display: block;
   z-index: 0;
 }
 #top_movie {
-  height: 162px;
+  background: url(http://1919ikebukuro.com/image/top_movie2.gif);
   position: absolute;
+  height: 162px;
   width: 224px;
   left: -54px;
   top: 16px;
-  background-image: url(http://1919ikebukuro.com/image/top_movie2.gif);
-  padding-top: 67px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 67px 13px 0;
   z-index: 9999;
 }
 #footer {
-  clear: both;
   text-align: center;
   margin: 20px 0 20px;
   width: 1100px;
