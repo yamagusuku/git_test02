@@ -1,12 +1,10 @@
-p {
-  margin: 0px;
-  padding: 0px; }
-
 #pickup {
-  background: url(http://1919ikebukuro.com/image/movie/title.jpg) #444444 left top no-repeat;
+  background: url(http://1919ikebukuro.com/image/movie/title.jpg) left top no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-repeat: no-repeat;
+  background-color: #444444;
   overflow: hidden;
   margin-top: 5px;
   padding: 29px 0 0;
@@ -20,10 +18,6 @@ p {
   width: 210px;
   margin-left: auto;
   margin-right: auto; }
-
-.right {
-  float: left;
-  width: 330px; }
 
 .prof {
   padding-left: 10px; }
@@ -49,11 +43,14 @@ p {
   margin-right: auto; }
 
 .news04_name {
-  background-color: #333;
   height: 30px;
   width: 200px;
   margin-left: 5px;
-  padding: 5px;
+  background-color: #333;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
   position: relative; }
   .news04_name .news04_cap {
     height: 45px;
