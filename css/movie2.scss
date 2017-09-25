@@ -1,10 +1,9 @@
 /* CSS Document */
 
 #movie_wrapper {
-  background: url(http://1919ikebukuro.com/image/movie/title.jpg) left top no-repeat;
+  background: url(http://1919ikebukuro.com/image/movie/title.jpg) #444444 left top no-repeat;
   color: #202020;
   width: 660px;
-  background-color: #444444;
   padding: 29px 0 0;
   margin-top: 5px;
 }
@@ -14,19 +13,18 @@
   justify-content: space-around;
 }
 .movie_box {
+  background: url(http://1919ikebukuro.com/image/movie/bg_box2.gif) no-repeat;
   display: block;
   overflow: hidden;
   width: 215px;
   height: 207px;
-  background-repeat: no-repeat;
-  background-image: url(http://1919ikebukuro.com/image/movie/bg_box2.gif);
   position: relative;
   padding-top: 5px;
 }
 .movie_title {
   line-height: 20px;
-  height: 20px;
   text-align: center;
+  height: 20px;
   width: 205px;
   margin-right: auto;
   margin-left: auto;
@@ -44,9 +42,9 @@
 }
 .movie_prof {
   font-size: 12px;
+  line-height: 13px;
   padding: 18px 0 0 10px;
   color: #FFF;
-  line-height: 13px;
   a:link {
     color: #FFFFFF;
     text-decoration: none;
