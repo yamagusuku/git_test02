@@ -4,28 +4,25 @@
   margin-bottom: 5px;
 }
 #news {
+  background: url(http://1919ikebukuro.com/image/news.jpg) no-repeat;
   width: 885px;
   height: 1131px;
   margin-top: 10px;
-  background-image: url(http://1919ikebukuro.com/image/news.jpg);
-  background-repeat: no-repeat;
   padding: 52px 0 0 15px;
   overflow: hidden;
 }
 #history {
+  background: url(http://1919ikebukuro.com/image/history.jpg) #242424 no-repeat;
   width: 230px;
   margin-top: 5px;
-  background-image: url(http://1919ikebukuro.com/image/history.jpg);
   padding: 50px 0 5px;
   height: 463px;
-  background-repeat: no-repeat;
-  background-color: #242424;
 }
 #history_top {
+  background-color: #242424;
   overflow: auto;
   height: 465px;
   width: 230px;
-  background-color: #242424;
 }
 #middle_container {
   display: flex;
@@ -43,13 +40,11 @@
   margin-bottom: 5px;
 }
 #sche {
+  background: url(http://1919ikebukuro.com/image/schedule.jpg) no-repeat;
   width: 650px;
   height: 835px;
-  margin-top: 10px;
-  background-image: url(http://1919ikebukuro.com/image/schedule.jpg);
-  background-repeat: no-repeat;
+  margin: 10px 10px 0 0;
   padding: 65px 0 0 10px;
-  margin-right: 10px;
 }
 #today_sche {
   overflow: auto;
@@ -122,9 +117,9 @@
   margin-bottom: 5px;
 }
 #shame2 {
+  background: url(http://1919ikebukuro.com/image/news3_4.jpg);
   width: 485px;
   height: 484px;
-  background-image: url(http://1919ikebukuro.com/image/news3_4.jpg);
   padding: 41px 0 0 10px;
   margin-right: 10px;
 }
@@ -164,13 +159,10 @@
   margin-bottom: 10px;
 }
 #tumblr_box {
+  background: url(http://1919ikebukuro.com/image/syame_bg.jpg) top #191a1c no-repeat;
   height: 405px;
-  background-color: #191a1c;
-  background-repeat: no-repeat;
-  background-position: top;
   padding-top: 45px;
   width: 395px;
-  background-image: url(http://1919ikebukuro.com/image/syame_bg.jpg);
   p {
     font-size: 24px;
     font-weight: bold;
@@ -199,35 +191,32 @@
 }
 
 #girls_shame {
+  background: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg) #191a1c repeat;
   height: 500px;
   width: 230px;
   overflow: auto;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: #191a1c;
-  background-image: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg);
-  background-repeat: repeat;
 }
 #middle_right {
   width: 230px;
   padding-top: 5px;
 }
 #girls_shame iframe body {
-  background-image: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg) !important;
-  background-repeat: no-repeat;
-  background-color: #191a1c;
+  background: url(http://1919ikebukuro.com/image/girls_syame_bg.jpg) #191a1c no-repeat !important;
 }
 .top_movie_news_container {
+  background: url(http://1919ikebukuro.com/image/top_movie_news_bg.gif) no-repeat;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(http://1919ikebukuro.com/image/top_movie_news_bg.gif);
-  background-repeat: no-repeat;
   height: 645px;
   width: 230px;
   position: relative;
 }
 .top_movie_news_box {
+  font-size: 14px;
+  line-height: 18px;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -237,8 +226,6 @@
   border-bottom-width: 1px;
   border-bottom-style: dashed;
   border-bottom-color: #666666;
-  font-size: 14px;
-  line-height: 18px;
   margin-right: auto;
   margin-left: auto;
 }
