@@ -6,14 +6,13 @@
   padding: 0px; }
 
 .girlslist_box {
-  background-image: url(../image/gals_sche_bac2.gif);
+  background-image: url(http://1919ikebukuro.com/image/gals_sche_bac2.gif);
   background-repeat: no-repeat;
   text-align: left;
   width: 140px;
   float: left;
   height: 330px;
-  margin-right: 10px;
-  margin-bottom: 10px; }
+  margin: 0 10px 10px 0; }
 
 .girlslist_box2 {
   text-align: center;
@@ -21,8 +20,7 @@
   margin-right: auto;
   margin-left: auto;
   height: 180px;
-  margin-top: 5px;
-  margin-bottom: 0px; }
+  margin-top: 5px; }
 
 .girlslist_photo {
   height: 180px;
@@ -32,10 +30,7 @@
 
 .girlslist_icon {
   text-align: center;
-  margin-top: 3px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px; }
+  margin: 3px 0 0; }
 
 .new {
   font-weight: bold;
@@ -71,8 +66,8 @@
   height: 59px;
   overflow: auto;
   width: 110px;
-  margin-left: auto;
   margin-top: 5px;
+  margin-left: auto;
   margin-right: auto; }
 
 .iframe {
@@ -93,9 +88,6 @@
   display: block;
   left: 0px;
   top: 0px; }
-
-.c_both {
-  clear: both; }
 
 #selest_day {
   font-size: 16px;

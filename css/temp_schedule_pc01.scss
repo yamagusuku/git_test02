@@ -1,215 +1,201 @@
 .girlslist_ico {
-	margin-top: 10px;
-	font-size: 12px;
-	font-weight: bold;
-	text-align: left;
-	padding: 0px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px;
 }
 .girlslist_box {
-	background-image: url(../image/gals_sche_bac2.gif);
-	background-repeat: no-repeat;
-	text-align: left;
-	width: 140px;
-	float: left;
-	height: 330px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-
+  background-image: url(http://1919ikebukuro.com/image/gals_sche_bac2.gif);
+  background-repeat: no-repeat;
+  text-align: left;
+  width: 140px;
+  float: left;
+  height: 330px;
+  margin: 0 10px 10px 0;
 }
 .girlslist_box2 {
-	text-align: center;
-	width: 120px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 180px;
-	margin-top: 5px;
-	margin-bottom: 0px;
+  text-align: center;
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 180px;
+  margin-top: 5px;
 }
 .girlslist_photo {
-	height: 180px;
-	width: 120px;
-	margin: 0px;
-	padding: 0px;
+  height: 180px;
+  width: 120px;
+  margin: 0px;
+  padding: 0px;
 }
 .girlslist_icon {
-	text-align: center;
-	margin-top: 3px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
-.container2 {
-
+  text-align: center;
+  margin: 3px 0 0;
 }
 .new {
-	font-weight: bold;
-	color: #FF0000;
-	font-size: 10px;
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 10px;
 }
 .icon {
-	position: absolute;
-	left: 132px;
-	top: 185px;
-	right: 36px;
-	width: 30px;
-	height: 20px;
+  position: absolute;
+  left: 132px;
+  top: 185px;
+  right: 36px;
+  width: 30px;
+  height: 20px;
 }
 .girlslist_name {
-	font-size: 12px;
-	text-align: left;
-	color: #FFFFFF;
-	font-family: Verdana;
-	line-height: 12px;
-	padding-top: 7px;
-	display: block;
-	width: 95px;
-	float: left;
-	height: 38px;
+  font-size: 12px;
+  text-align: left;
+  color: #FFFFFF;
+  font-family: Verdana;
+  line-height: 12px;
+  padding-top: 7px;
+  display: block;
+  width: 95px;
+  float: left;
+  height: 38px;
 }
 .girlslist_comme {
-	font-size: 10px;
-	text-align: left;
-	color: #CCCCCC;
-	font-family: Verdana;
-	display: block;
-	height: 59px;
-	overflow: auto;
-	width: 110px;
-	margin-left: auto;
-	margin-top: 5px;
-	margin-right: auto;
+  font-size: 10px;
+  text-align: left;
+  color: #CCCCCC;
+  font-family: Verdana;
+  display: block;
+  height: 59px;
+  overflow: auto;
+  width: 110px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .iframe {
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	width: 160px;
-	position: relative;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 160px;
+  position: relative;
 }
 .link {
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-	width: 120px;
-	height: 180px;
-	position: absolute;
-	display: block;
-	left: 0px;
-	top: 0px;
-}
-.c_both {
-	clear: both;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  width: 120px;
+  height: 180px;
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 0px;
 }
 #selest_day {
-	font-size: 16px;
-	margin-top: 5px;
-	overflow: hidden;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	display: block;
-	font-weight: bold;
-	padding: 5px;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: #666666;
-	color: #FF00FF;
-	height: 20px;
-	margin-bottom: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #666666;
+  color: #FF00FF;
+  height: 20px;
+  margin-bottom: 10px;
 }
 #selest_day a {
-	text-decoration: underline;
-	color: #999999;
+  text-decoration: underline;
+  color: #999999;
 }
 #selest_day a:visited {
-	text-decoration: underline;
-	color: #999999;
+  text-decoration: underline;
+  color: #999999;
 }
 #selest_day a:hover {
-	background-color:#FF00FF;
-	text-decoration: underline;
-	color: #FFFFFF;
+  background-color: #FF00FF;
+  text-decoration: underline;
+  color: #FFFFFF;
 }
-
 #selest_day a:active {
-	text-decoration: underline;
-	color: #FFFFFF;
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 .time {
-	padding: 0px;
-	width: 120px;
-	margin-top: 8px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	height: 17px;
-	line-height: 16px;
-	font-weight: bold;
-	color: #FFFF00;
-	text-align: center;
-	font-size: 12px;
-	font-family: Verdana;
+  padding: 0px;
+  width: 120px;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  height: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #FFFF00;
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana;
 }
 .photo_left {
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	width: 120px;
-	height: 180px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 120px;
+  height: 180px;
 }
 .photo_right {
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-	float: left;
-	width: 40px;
-	height: 60px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 40px;
+  height: 60px;
 }
-
 .tomorrow {
-	padding: 0px;
-	height: 30px;
-	font-size: 12px;
-	font-weight: bold;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #333333;
-	line-height: 22px;
-	margin-top: 30px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	text-align: center;
+  padding: 0px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #333333;
+  line-height: 22px;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
 }
 .today {
-	padding: 0px;
-	height: 30px;
-	font-size: 12px;
-	font-weight: bold;
-	line-height: 22px;
-	text-align: center;
-	margin: 0px;
+  padding: 0px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  margin: 0px;
 }
 .cup {
-	float: left;
-	height: 45px;
-	width: 45px;
-	overflow: hidden;
+  float: left;
+  height: 45px;
+  width: 45px;
+  overflow: hidden;
 }
 .photo {
-	height: 180px;
-	width: 120px;
+  height: 180px;
+  width: 120px;
 }
 .photo img {
-	height: 180px;
-	width: 120px;
+  height: 180px;
+  width: 120px;
 }
-.photo a{
-	border: 0px;
-	width: 120px;
-	display: block;
-	height: 180px;
-	background-repeat: no-repeat;
+.photo a {
+  border: 0px;
+  width: 120px;
+  display: block;
+  height: 180px;
+  background-repeat: no-repeat;
 }
