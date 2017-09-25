@@ -1,26 +1,25 @@
 #top_movie_wrapper {
+  background: url(http://1919ikebukuro.com/image/top_movie_bg2.jpg) no-repeat;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 890px;
-  background-image: url(http://1919ikebukuro.com/image/top_movie_bg2.jpg);
-  background-repeat: no-repeat;
-  padding: 0 5px 0;
   height: 390px;
+  width: 890px;
+  padding: 0 5px 0;
   video {
     height: 119px !important;
     width: 212px !important;
   }
 }
 .top_movie_box {
+  background: url(http://1919ikebukuro.com/image/movie_box_bg.png) no-repeat;
   display: block;
-  overflow: hidden;
+  position: relative;
   width: 220px;
   height: 176px;
+  overflow: hidden;
   margin-bottom: 8px;
-  position: relative;
-  background: url(http://1919ikebukuro.com/image/movie_box_bg.png) no-repeat;
   padding-top: 8px;
   .news04_cap {
     position: absolute;
@@ -34,24 +33,24 @@
 .top_movie_title {
   line-height: 15px;
   height: 15px;
-  text-align: center;
   width: 205px;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   color: #000;
 }
 .top_movie {
   display: block;
-  padding: 15px 4px 0;
   height: 119px;
   width: 212px;
+  padding: 15px 4px 0;
   z-index: -10;
 }
 .top_movie_prof {
   font-size: 12px;
-  padding: 2px 0 0 13px;
-  color: #FFF;
   line-height: 13px;
+  color: #FFF;
+  padding: 2px 0 0 13px;
   a {
     position: absolute;
     left: 20px;
