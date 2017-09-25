@@ -5,29 +5,27 @@
   height: 44px;
   background-color: #333333;
   padding: 5px;
-  width: 200px;
-}
+  width: 200px; }
+
 .history_photo {
   height: 45px;
   width: 30px;
-  overflow: hidden;
-  a {
+  overflow: hidden; }
+  .history_photo a {
     height: 45px;
-    width: 30px;
-  }
-  a img {
+    width: 30px; }
+  .history_photo a img {
     height: 45px;
-    width: 30px;
-  }
-}
+    width: 30px; }
+
 .history_com {
   display: flex;
   flex-direction: column;
   height: 39px;
   background-color: #333333;
   padding: 5px;
-  width: 162px;
-}
+  width: 162px; }
+
 .history_time {
   height: 13px;
   width: 162px;
@@ -35,20 +33,19 @@
   font-weight: bold;
   color: #CCCCCC;
   background-color: #666666;
-  padding: 2px 0 0 3px;
-}
+  padding: 2px 0 0 3px; }
+
 .history_name {
   height: 29px;
   width: 162px;
   line-height: 14px;
-  padding-left: 3px;
-}
+  padding-left: 3px; }
+
 .history_name a:link, .history_name a:visited, .history_name a:link p, .history_name a:visited p {
   color: #FFFFFF;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .history_name a:hover, .history_name a:active, .history_name a:hover p, .history_name a:active p {
   color: #FFFFFF;
   text-decoration: none;
-  background-color: #FF4B16;
-}
+  background-color: #FF4B16; }
