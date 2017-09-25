@@ -1,19 +1,12 @@
-/* CSS Document */
-
-img {
-  border: 0px;
-}
 p {
   margin: 0px;
   padding: 0px;
 }
 #pickup {
-  background: url(http://1919ikebukuro.com/image/movie/title.jpg) left top no-repeat;
+  background: url(http://1919ikebukuro.com/image/movie/title.jpg) #444444 left top no-repeat;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-repeat: no-repeat;
-  background-color: #444444;
   overflow: hidden;
   margin-top: 5px;
   padding: 29px 0 0;
@@ -56,14 +49,11 @@ p {
   margin-right: auto;
 }
 .news04_name {
+  background-color: #333;
   height: 30px;
   width: 200px;
   margin-left: 5px;
-  background-color: #333;
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding: 5px;
   position: relative;
   .news04_cap {
     height: 45px;
@@ -77,4 +67,3 @@ p {
     line-height: 16px;
   }
 }
-
