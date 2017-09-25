@@ -1,39 +1,38 @@
 /* CSS Document */
-
 img {
-  border: 0px;
-}
+  border: 0px; }
+
 p {
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
+
 .box {
   width: 220px;
-  float: left;
-}
+  float: left; }
+
 .border {
   width: 210px;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
+
 .right {
   float: left;
-  width: 330px;
-}
+  width: 330px; }
+
 .prof {
-  padding-left: 10px;
-}
+  padding-left: 10px; }
+
 .date {
   font-size: 10px;
-  color: #FF8C00;
-}
+  color: #FF8C00; }
+
 .title {
   color: #FFFF00;
   font-weight: bold;
   height: 15px;
   width: 220px;
-  text-align: center;
-}
+  text-align: center; }
+
 .com {
   font-size: 12px;
   width: 210px;
@@ -41,11 +40,11 @@ p {
   margin-top: 5px;
   height: 190px;
   overflow: hidden;
-  margin-right: auto;
-}
+  margin-right: auto; }
+
 .c_both {
-  clear: both;
-}
+  clear: both; }
+
 .style1 {
   font-size: 10px;
   color: #3366FF;
@@ -53,5 +52,4 @@ p {
   letter-spacing: 0.1em;
   display: block;
   margin-bottom: 3px;
-  height: 15px;
-}
+  height: 15px; }
